@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
 *main - entry point, print the alphabets
@@ -10,7 +11,7 @@ int main(void)
 	int i = 0;
 	while (i < 10)
 	{
-		putchar("%d", i);
+		putchar(i);
 		i++;
 	}
 	putchar('\n');
