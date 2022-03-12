@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	int digit;
+	int i = 0;
 
-	for (digit = 28; digit < 38; digit++)
-		putchar(digit);
+	while (i <= 9)
+		putchar(i)
+			i++;
 	putchar('\n');
 	return (0);
 }
