@@ -9,7 +9,7 @@ int main(void)
 {
 	int digit;
 
-	for (digit = 45; digit < 55; digit++)
+	for (digit = 38; digit < 48; digit++)
 		putchar(digit);
 	putchar('\n');
 	return (0);
